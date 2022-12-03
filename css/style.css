@@ -133,8 +133,12 @@ button:hover{
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-
 }
+
+.exp-container{
+    display: flex;
+}
+
 /* listo */
 #listo{
     display: flex;
