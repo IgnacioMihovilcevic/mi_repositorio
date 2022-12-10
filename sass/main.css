@@ -1,1 +1,205 @@
-/*# sourceMappingURL=main.css.map */
+/* vars */
+* {
+  margin: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(245, 245, 245);
+}
+header .logo {
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  color: green;
+  justify-content: space-between;
+}
+header .menu {
+  display: inline-flex;
+  flex-direction: center;
+  text-align: center;
+}
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+header a:hover {
+  background-color: greenyellow;
+}
+
+#somos {
+  background-color: rgb(245, 245, 245);
+}
+#somos .container {
+  text-align: center center;
+  padding: 150px 12px;
+}
+
+#experienciaGreen .container {
+  text-align: center;
+  padding: 50px 12px;
+}
+#experienciaGreen li {
+  margin: 15px 0px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.exp-container {
+  display: flex;
+  margin: 30px;
+}
+
+#listo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  background-color: black;
+  color: rgb(245, 245, 245);
+}
+#listo h2 {
+  font-size: 40px;
+  margin: 20px;
+}
+#listo button {
+  font-size: 25px;
+}
+
+.catalogo {
+  background-color: green;
+  text-align: center;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.cat-container {
+  margin: 0px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+}
+
+.cat-item {
+  background-color: rgb(245, 245, 245);
+  padding: 10px;
+}
+
+.video-exp {
+  margin-top: 20px;
+  margin-left: 700px;
+}
+
+.box-container {
+  margin: 20px 0px 0px 600px;
+  width: 800px;
+  height: 400px;
+  padding: 20px 12px;
+  overflow: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 25px;
+}
+h2 .catalogo {
+  text-align: top;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+li .menu {
+  display: inline;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#img {
+  margin: 5;
+  margin-left: 300px;
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 10px black;
+  color: black;
+  background-color: greenyellow;
+}
+button:hover {
+  background-color: green;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.color-name {
+  color: rgb(0, 255, 42);
+}
+
+#banner button {
+  font-size: 30px;
+}
+#banner h1 {
+  font-family: "Roboto", sans-serif;
+}
+#banner h2 {
+  background-color: rgb(245, 245, 245);
+}
+
+.volver-home {
+  margin: 10px;
+  text-decoration: none;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(245, 245, 245);
+}
+footer p {
+  margin: 0;
+  padding: 12px;
+}
+footer .container {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}/*# sourceMappingURL=main.css.map */

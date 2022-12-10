@@ -1,0 +1,13 @@
+/* vars */
+$colorPrincipal: green;
+$colorName:rgb(0, 255, 42);
+$colorSecundario: rgb(245, 245, 245);
+$borderBg: black;
+$titulares: 45px;
+$tituloSecundario: 25px;
+$otros: 20px;
+$parrafoTxt: 18px;
+
+@mixin colorhover {
+    background-color: greenyellow;
+}

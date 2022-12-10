@@ -1,0 +1,90 @@
+@import "vars";
+@import "reset";
+@import "header";
+@import "pages";
+
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+h1 {
+	font-size: $titulares;
+}
+h2 {
+	font-size: $tituloSecundario;
+	.catalogo {
+		text-align: top;
+	}
+}
+h3 {
+	font-size: $otros;
+}
+p {
+	font-size: $parrafoTxt;
+}
+ul {
+	list-style: none;
+}
+li {
+	.menu {
+		display: inline;
+		font-size: 25px;
+		font-weight: bold;
+	}
+}
+#img {
+	margin: 5;
+	margin-left: 300px;
+}
+button {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 15px;
+	border: 2px solid $borderBg;
+	box-shadow: 2px 2px 10px $borderBg;
+	color: $borderBg;
+    @include colorhover();
+	&:hover {
+		background-color: $colorPrincipal;
+	}
+}
+.container {
+	max-width: 1400px;
+	margin: auto;
+}
+.color-name {
+	color: $colorName;
+}
+#banner {
+	button {
+		font-size: 30px;
+	}
+	h1 {
+		font-family: "Roboto", sans-serif;
+	}
+	h2 {
+		background-color: $colorSecundario;
+	}
+}
+
+.volver-home {
+	margin: 10px;
+	text-decoration: none;
+	background-color: $colorSecundario;
+	text-align: center;
+}
+
+footer {
+	background-color: $colorSecundario;
+	p {
+		margin: 0;
+		padding: 12px;
+	}
+	.container {
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+}
